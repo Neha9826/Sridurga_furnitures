@@ -1,0 +1,178 @@
+*
+{
+	padding: 0;
+	margin: 0; 
+}
+header
+{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+.header
+{
+	width: 400px;
+	align-items: baseline;
+}
+.logo
+{
+	height: 200px;
+	width: 200px;
+}
+img
+{
+	height: 200px;
+	width: 200px;
+}
+.nav 
+{
+	width: 750px;
+	height: auto;
+	background:#FFFFFF;
+	align-items: baseline;
+}
+.nav ul li
+{
+	list-style: none;
+	display: inline-block;
+}
+/*.nav ul li a
+{
+    background:url(images/menu_hover.png)0 -100px repeat-x;
+    background-image: url(images/menu_hover.png);
+    background-position-x: 0px;
+    background-position-y: -100px;
+    background-size: initial;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    text-align: center;
+    color: #009b97;
+    display: block;
+    padding: 17px 23px 31px;
+    padding-top: 17px;
+    padding-right: 23px;
+    padding-bottom: 31px;
+    padding-left: 23px;
+    border-bottom: 3px solid transparent;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}*/
+.nav ul li a
+{
+	align-items:flex-end;
+	display: block;
+	padding: 5px 30px ;
+	margin-top: 20px;
+		
+	float: right;
+	font-size: 25px;
+	font-weight: bold;
+	color: #0F96A7;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.nav ul li a:hover
+{
+	border-radius: 10px;
+	background: rgba(170,170,170,0.44);
+	color: rgba(11,138,144,1.00);
+	text-decoration: underline;
+	
+}
+.slider
+{
+	/*border: 1px solid black;*/
+	height: 360px;
+	padding-top: 15px;
+}
+.text
+{
+	padding: 20px;
+}
+.ta
+{
+	color: #0F96A7;
+	font-family: aladin;
+	font-size: 50px;
+}
+.tb
+{
+	color: rgba(114,115,116,1.00);
+	align-content: center;
+	align-items: center;
+}
+ th 
+{
+	color: #0F96A7;
+	font-family: aladin;
+	font-size: 25px;
+}
+.fworks
+{
+	
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+.fworks table tr td
+{
+	width: 420px;
+	height: 235px;
+}
+.fworks table tr td img
+{
+	width: 300px;
+	height: 235px;
+}
+.contimg
+{
+	border-radius: 30px;
+}
+.contimg:hover
+{
+	opacity: .7;
+	box-shadow: 2px 2px 5px 5px black;
+}
+
+.fimg
+{
+	height: 50px;
+	width: 50px;
+	padding-right: 30px;
+}
+.fimg:hover
+{
+	opacity: .5;
+}
+.footer-a
+{
+	height: 65px;
+	width: 100%;
+	background: rgba(0,0,0,0.44);
+}
+.footer-a .ftable
+{
+	padding-left: 550px;
+}
+.ftable
+{
+	padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
